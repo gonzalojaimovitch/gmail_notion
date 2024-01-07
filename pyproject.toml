@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gmail-notion"
+version = "0.1.0"
+description = ""
+authors = ["Gonzalo Jaimovitch <gonzalojaimovitch@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-auth = "^2.26.1"
+google-auth-oauthlib = "^1.2.0"
+google-auth-httplib2 = "^0.2.0"
+google-api-python-client = "^2.112.0"
+notion-client = "^2.2.1"
+tqdm = "^4.66.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
